@@ -9,10 +9,10 @@ body {
   display: block;
   margin: auto;
   padding: 10px;
-  border: 1px solid #39ff14; /* Add a grey border */
+  border: 1px solid #39ff14;
   background-color: #292929;
   color: white;
-  margin-bottom: 12px; /* Add some space below the input */
+  margin-bottom: 12px;
   margin-top: 20px;
   border-radius: 20px;
   outline: none;
@@ -41,5 +41,5 @@ body {
 }
 
 #nameList li a:hover:not(.header) {
-  background-color: #363636; /* Add a hover effect to all links, except for headers */
+  background-color: #363636;
 }
