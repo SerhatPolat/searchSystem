@@ -1,0 +1,45 @@
+body {
+  background-color: #363636;
+  font-family: "Roboto", sans-serif;
+}
+
+#searchBar {
+  width: 80%;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #39ff14; /* Add a grey border */
+  background-color: #292929;
+  color: white;
+  margin-bottom: 12px; /* Add some space below the input */
+  margin-top: 20px;
+  border-radius: 20px;
+  outline: none;
+}
+
+#nameList {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px;
+}
+
+#nameList p {
+  color: white;
+  text-align: center;
+}
+
+#nameList li a {
+  text-decoration: none;
+  background-color: #292929;
+  color: white;
+  border: 1px solid gray;
+  margin-top: -1px;
+  padding: 20px;
+  font-size: 20px;
+  display: block;
+}
+
+#nameList li a:hover:not(.header) {
+  background-color: #363636; /* Add a hover effect to all links, except for headers */
+}
